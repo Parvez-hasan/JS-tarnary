@@ -7,6 +7,7 @@ console.log(result,results);
 
 
 // Vote by Age
+
 var age = 18
 var message = age >= 18 ? 'can vote' : 'too young to vote';
 var messages = age <= 14 ? 'can vote' : 'too young to vote';
@@ -67,12 +68,40 @@ console.log(java.substring(4, 10));
 // * replace..old & new *
 
 let web = "i love programming language";
-console.log(web.replace("programming language","non-coding language"));  */
+console.log(web.replace("programming language","non-coding language"));  
 
 
 // *** Trim ***
 
-let 
+let deb = "      developer     ";
+const company = "      progaramming master       ";
+console.log(deb.trim());
+console.log(company.trim()); 
+
+
+// *** Split ***
+
+let someFruit = "apple, mango, banana, jackfruit, litchi";
+let myFriendName = "anas, sanoar, goutom, sakib, sabbir, abid ";
+console.log(someFruit.split(", "));
+console.log(myFriendName.split(", "));
+
+
+// *** concatenation ***  */
+
+let first = "Hello Programming Hero";
+let second = "All Team Mambar";
+console.log(first + " " + second);
+
+
+
+
+
+
+
+
+
+
 
 
 
